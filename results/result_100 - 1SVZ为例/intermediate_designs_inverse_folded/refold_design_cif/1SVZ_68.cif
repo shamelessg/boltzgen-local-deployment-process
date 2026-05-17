@@ -1,0 +1,159 @@
+data_model
+_entry.id model
+
+_cell.entry_id model
+_cell.length_a 1
+_cell.length_b 1
+_cell.length_c 1
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id model
+_symmetry.space_group_name_H-M ''
+
+loop_
+_entity.id
+_entity.type
+1 polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+1 polypeptide(L) ? SRGPLS
+
+
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+A 1
+
+
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+loop_
+_entity_poly_seq.entity_id
+_entity_poly_seq.num
+_entity_poly_seq.mon_id
+_entity_poly_seq.hetero
+1 1 SER ?
+1 2 ARG ?
+1 3 GLY ?
+1 4 PRO ?
+1 5 LEU ?
+1 6 SER ?
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . SER A 1 1 ? 6.43276215 -1.85893464 -1.49488735 1 0.839948 ? 1 A 1
+ATOM 2 C CA . SER A 1 1 ? 5.91578341 -2.27713656 -0.185766205 1 0.839948 ? 1 A 1
+ATOM 3 C C . SER A 1 1 ? 4.4360261 -1.98096633 -0.0332040749 1 0.839948 ? 1 A 1
+ATOM 4 O O . SER A 1 1 ? 3.84676313 -1.25458455 -0.861440241 1 0.839948 ? 1 A 1
+ATOM 5 C CB . SER A 1 1 ? 6.68502951 -1.49421358 0.852165341 1 0.839948 ? 1 A 1
+ATOM 6 O OG . SER A 1 1 ? 7.75518847 -2.28139782 1.34990966 1 0.839948 ? 1 A 1
+ATOM 7 N N . ARG A 1 2 ? 3.92519712 -2.54565692 1.09585154 1 0.913941 ? 2 A 1
+ATOM 8 C CA . ARG A 1 2 ? 2.53890181 -2.21405101 1.41507161 1 0.913941 ? 2 A 1
+ATOM 9 C C . ARG A 1 2 ? 2.48437524 -0.888298154 2.1826508 1 0.913941 ? 2 A 1
+ATOM 10 O O . ARG A 1 2 ? 3.39261532 -0.530355632 2.93530321 1 0.913941 ? 2 A 1
+ATOM 11 C CB . ARG A 1 2 ? 1.92655277 -3.28081608 2.25054836 1 0.913941 ? 2 A 1
+ATOM 12 C CG . ARG A 1 2 ? 1.74406409 -4.58095455 1.5183984 1 0.913941 ? 2 A 1
+ATOM 13 C CD . ARG A 1 2 ? 1.10084176 -5.63077641 2.46514463 1 0.913941 ? 2 A 1
+ATOM 14 N NE . ARG A 1 2 ? 1.87981284 -6.85947895 2.34930205 1 0.913941 ? 2 A 1
+ATOM 15 C CZ . ARG A 1 2 ? 2.84007597 -7.28440571 3.1783061 1 0.913941 ? 2 A 1
+ATOM 16 N NH1 . ARG A 1 2 ? 3.15541792 -6.67639542 4.30859089 1 0.913941 ? 2 A 1
+ATOM 17 N NH2 . ARG A 1 2 ? 3.51615286 -8.34603119 2.88029528 1 0.913941 ? 2 A 1
+ATOM 18 N N . GLY A 1 3 ? 1.43127608 -0.141243458 1.90390992 1 0.920179 ? 3 A 1
+ATOM 19 C CA . GLY A 1 3 ? 1.24198282 1.15032089 2.45148802 1 0.920179 ? 3 A 1
+ATOM 20 C C . GLY A 1 3 ? 0.115310989 1.2535677 3.44404602 1 0.920179 ? 3 A 1
+ATOM 21 O O . GLY A 1 3 ? -0.353303075 0.265775949 4.00310469 1 0.920179 ? 3 A 1
+ATOM 22 N N . PRO A 1 4 ? -0.37944144 2.45846272 3.61888695 1 0.928297 ? 4 A 1
+ATOM 23 C CA . PRO A 1 4 ? -1.45795798 2.65491652 4.55686569 1 0.928297 ? 4 A 1
+ATOM 24 C C . PRO A 1 4 ? -2.78645372 2.08652592 4.05203056 1 0.928297 ? 4 A 1
+ATOM 25 O O . PRO A 1 4 ? -3.03725171 2.02495289 2.85237384 1 0.928297 ? 4 A 1
+ATOM 26 C CB . PRO A 1 4 ? -1.52569509 4.19017172 4.71646547 1 0.928297 ? 4 A 1
+ATOM 27 C CG . PRO A 1 4 ? -0.9229936 4.77109861 3.53280687 1 0.928297 ? 4 A 1
+ATOM 28 C CD . PRO A 1 4 ? -0.0481712483 3.71866584 2.90286565 1 0.928297 ? 4 A 1
+ATOM 29 N N . LEU A 1 5 ? -3.55129933 1.63512421 4.91922951 1 0.912425 ? 5 A 1
+ATOM 30 C CA . LEU A 1 5 ? -4.96713495 1.40926445 4.66549158 1 0.912425 ? 5 A 1
+ATOM 31 C C . LEU A 1 5 ? -5.64047146 2.78242588 4.49634123 1 0.912425 ? 5 A 1
+ATOM 32 O O . LEU A 1 5 ? -5.1537385 3.81528091 5.06043291 1 0.912425 ? 5 A 1
+ATOM 33 C CB . LEU A 1 5 ? -5.60578442 0.60699594 5.77014303 1 0.912425 ? 5 A 1
+ATOM 34 C CG . LEU A 1 5 ? -5.00207996 -0.797109306 5.97365952 1 0.912425 ? 5 A 1
+ATOM 35 C CD1 . LEU A 1 5 ? -5.49763823 -1.43577218 7.25692511 1 0.912425 ? 5 A 1
+ATOM 36 C CD2 . LEU A 1 5 ? -5.19131184 -1.70033431 4.77089739 1 0.912425 ? 5 A 1
+ATOM 37 N N . SER A 1 6 ? -6.73826504 2.64933681 3.62677121 1 0.8864 ? 6 A 1
+ATOM 38 C CA . SER A 1 6 ? -7.44533873 3.88431859 3.30381036 1 0.8864 ? 6 A 1
+ATOM 39 C C . SER A 1 6 ? -8.93730164 3.75133514 3.51206636 1 0.8864 ? 6 A 1
+ATOM 40 O O . SER A 1 6 ? -9.66699791 3.06915379 2.72419548 1 0.8864 ? 6 A 1
+ATOM 41 C CB . SER A 1 6 ? -7.18929243 4.33134985 1.86427486 1 0.8864 ? 6 A 1
+ATOM 42 O OG . SER A 1 6 ? -7.26628542 3.29936075 0.976582348 1 0.8864 ? 6 A 1
+
+loop_
+_pdbx_poly_seq_scheme.asym_id
+_pdbx_poly_seq_scheme.entity_id
+_pdbx_poly_seq_scheme.seq_id
+_pdbx_poly_seq_scheme.mon_id
+_pdbx_poly_seq_scheme.pdb_seq_num
+_pdbx_poly_seq_scheme.auth_seq_num
+_pdbx_poly_seq_scheme.pdb_mon_id
+_pdbx_poly_seq_scheme.auth_mon_id
+_pdbx_poly_seq_scheme.pdb_strand_id
+_pdbx_poly_seq_scheme.pdb_ins_code
+_pdbx_poly_seq_scheme.hetero
+A 1 1 SER 1 1 SER SER A . n
+A 1 2 ARG 2 2 ARG ARG A . n
+A 1 3 GLY 3 3 GLY GLY A . n
+A 1 4 PRO 4 4 PRO PRO A . n
+A 1 5 LEU 5 5 LEU LEU A . n
+A 1 6 SER 6 6 SER SER A . n
+
+loop_
+_ma_qa_metric.id
+_ma_qa_metric.name
+_ma_qa_metric.description
+_ma_qa_metric.type
+_ma_qa_metric.mode
+_ma_qa_metric.type_other_details
+_ma_qa_metric.software_group_id
+1 pLDDT 'Predicted lddt' pLDDT local . .
+
+loop_
+_ma_qa_metric_local.ordinal_id
+_ma_qa_metric_local.model_id
+_ma_qa_metric_local.label_asym_id
+_ma_qa_metric_local.label_seq_id
+_ma_qa_metric_local.label_comp_id
+_ma_qa_metric_local.metric_id
+_ma_qa_metric_local.metric_value
+1 1 A 1 SER 1 83.995
+2 1 A 2 ARG 1 91.394
+3 1 A 3 GLY 1 92.018
+4 1 A 4 PRO 1 92.830
+5 1 A 5 LEU 1 91.243
+6 1 A 6 SER 1 88.640

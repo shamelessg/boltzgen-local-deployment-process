@@ -1,29 +1,29 @@
-# BOLTZGEN 部署记录
+# Boltzgen 部署记录
 
 ## 目标环境
 
 - **OS**: CentOS 7 (glibc 2.17, kernel 3.10)
-- **GPU**: NVIDIA A100 × 4 (CUDA 11.8)
-- **限制**: 无 root 权限、Slurm 调度器关闭、无 Docker
+- **GPU**: NVIDIA 4090 × 10 (CUDA 12.1)
+- **限制**: 无 root 权限、Slurm 调度器关闭、无法 Docker
 
 ## 尝试 1: Conda/Pip 直接部署 (失败)
 
 ```bash
 conda create -n boltzgen python=3.9
 conda activate boltzgen
-pip install boltzgen  # 或从源码安装
+pip install boltzgen
+pip install -e .  # 或从源码安装
 ```
 
 **报错**:
-```
-ImportError: /lib64/libm.so.6: version `GLIBC_2.27' not found
-```
+
+反复多次多种方法尝试，始终缺少关键的三角注意力机制cuda加速驱动。
 
 **根因**: BOLTZGEN 依赖的某些数值计算库需要 glibc ≥ 2.27，CentOS 7 仅提供 2.17。
 
 **决策**: 放弃裸机 Python 环境，转向容器化。
 
-## 尝试 2: Docker macOS 本地构建 (部分成功)
+## 尝试 2: Docker win 本地构建 (部分成功)
 
 ```bash
 # 在 macOS (Apple Silicon) 上构建
@@ -31,9 +31,9 @@ docker build -t boltzgen:latest .
 docker run --gpus all boltzgen:latest python -c "import boltzgen"
 ```
 
-**结果**: 模型加载成功，参数可正常读取。但：
-- macOS 无 NVIDIA GPU 直通，推理速度极慢（预计单蛋白需数小时）
-- Docker 镜像无法直接在 CentOS 7 上运行（Docker 未安装且无 root）
+**结果**: 模型加载成功，参数代理条件下读取。但：
+- 笔记本3060显卡，开跑直接挂掉线程，带不动。
+- Docker 镜像无法直接在 CentOS 7 上运行（导师没给我 root 权限）
 
 **决策**: 本地构建 Docker 镜像 → 导出 tar → 服务器 Singularity 导入。
 
@@ -44,7 +44,7 @@ docker run --gpus all boltzgen:latest python -c "import boltzgen"
 docker save boltzgen:latest -o boltzgen.tar
 
 # 上传到服务器
-scp boltzgen.tar chenxq@server:/home/chenxq/boltzgen_me/
+termius sftp文件互传
 
 # 服务器：构建 Singularity 镜像
 module load singularity
@@ -52,9 +52,7 @@ singularity build boltzgen.sif docker-archive://boltzgen.tar
 ```
 
 **新问题**: Singularity 容器的只读文件系统导致 BOLTZGEN 在运行时尝试写入缓存路径失败：
-```
-PermissionError: [Errno 13] Permission denied: '/.cache/torch/...'
-```
+
 
 ## 尝试 4: Venv 次级环境修复 (成功)
 
@@ -68,7 +66,6 @@ singularity exec boltzgen.sif python -m venv boltz_env
 singularity exec boltzgen.sif bash -c "source ./boltz_env/bin/activate && pip install boltzgen"
 
 # 设置 HuggingFace 镜像 & 缓存路径
-export HF_ENDPOINT=https://hf-mirror.com
 export HF_HOME=$(pwd)/cache
 
 # 运行

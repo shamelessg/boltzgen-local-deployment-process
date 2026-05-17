@@ -1,0 +1,172 @@
+data_model
+_entry.id model
+
+_cell.entry_id model
+_cell.length_a 1
+_cell.length_b 1
+_cell.length_c 1
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id model
+_symmetry.space_group_name_H-M ''
+
+loop_
+_entity.id
+_entity.type
+1 polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+1 polypeptide(L) ? GQWPPW
+
+
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+A 1
+
+
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+loop_
+_entity_poly_seq.entity_id
+_entity_poly_seq.num
+_entity_poly_seq.mon_id
+_entity_poly_seq.hetero
+1 1 GLY ?
+1 2 GLN ?
+1 3 TRP ?
+1 4 PRO ?
+1 5 PRO ?
+1 6 TRP ?
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . GLY A 1 1 ? -9.39536381 1.75601816 1.04965806 1 0.941614 ? 1 A 1
+ATOM 2 C CA . GLY A 1 1 ? -8.46165085 1.24700344 2.10874915 1 0.941614 ? 1 A 1
+ATOM 3 C C . GLY A 1 1 ? -7.13133526 1.92990029 2.26096511 1 0.941614 ? 1 A 1
+ATOM 4 O O . GLY A 1 1 ? -6.74081087 2.79877734 1.51705277 1 0.941614 ? 1 A 1
+ATOM 5 N N . GLN A 1 2 ? -6.46000576 1.42288363 3.34615159 1 0.946964 ? 2 A 1
+ATOM 6 C CA . GLN A 1 2 ? -5.2833271 2.20267606 3.78069949 1 0.946964 ? 2 A 1
+ATOM 7 C C . GLN A 1 2 ? -4.05425262 2.036587 2.91265988 1 0.946964 ? 2 A 1
+ATOM 8 O O . GLN A 1 2 ? -3.76075459 0.936550856 2.50316381 1 0.946964 ? 2 A 1
+ATOM 9 C CB . GLN A 1 2 ? -4.98765087 1.8552556 5.22564268 1 0.946964 ? 2 A 1
+ATOM 10 C CG . GLN A 1 2 ? -3.95044756 2.75704503 5.87262011 1 0.946964 ? 2 A 1
+ATOM 11 C CD . GLN A 1 2 ? -3.68702435 2.4526329 7.35466576 1 0.946964 ? 2 A 1
+ATOM 12 O OE1 . GLN A 1 2 ? -4.37546301 1.69735003 8.01992798 1 0.946964 ? 2 A 1
+ATOM 13 N NE2 . GLN A 1 2 ? -2.64774132 3.07009816 7.89089155 1 0.946964 ? 2 A 1
+ATOM 14 N N . TRP A 1 3 ? -3.30145431 3.15928173 2.74889183 1 0.961638 ? 3 A 1
+ATOM 15 C CA . TRP A 1 3 ? -2.06662369 3.1177175 2.02292562 1 0.961638 ? 3 A 1
+ATOM 16 C C . TRP A 1 3 ? -0.958183289 3.62795949 2.956604 1 0.961638 ? 3 A 1
+ATOM 17 O O . TRP A 1 3 ? -1.14884019 4.71878004 3.56226492 1 0.961638 ? 3 A 1
+ATOM 18 C CB . TRP A 1 3 ? -2.14708066 4.02001047 0.807620764 1 0.961638 ? 3 A 1
+ATOM 19 C CG . TRP A 1 3 ? -1.21568477 3.65309358 -0.23673448 1 0.961638 ? 3 A 1
+ATOM 20 C CD1 . TRP A 1 3 ? -1.39848065 2.64927053 -1.16365707 1 0.961638 ? 3 A 1
+ATOM 21 C CD2 . TRP A 1 3 ? -0.0508293658 4.29361439 -0.593600512 1 0.961638 ? 3 A 1
+ATOM 22 N NE1 . TRP A 1 3 ? -0.359492123 2.60967469 -1.99694014 1 0.961638 ? 3 A 1
+ATOM 23 C CE2 . TRP A 1 3 ? 0.498350382 3.60557842 -1.70212829 1 0.961638 ? 3 A 1
+ATOM 24 C CE3 . TRP A 1 3 ? 0.621743917 5.4020505 -0.0466528796 1 0.961638 ? 3 A 1
+ATOM 25 C CZ2 . TRP A 1 3 ? 1.69566751 3.93256068 -2.24284005 1 0.961638 ? 3 A 1
+ATOM 26 C CZ3 . TRP A 1 3 ? 1.82388055 5.77227068 -0.630277038 1 0.961638 ? 3 A 1
+ATOM 27 C CH2 . TRP A 1 3 ? 2.33910084 5.02484655 -1.70059001 1 0.961638 ? 3 A 1
+ATOM 28 N N . PRO A 1 4 ? 0.105972566 2.86508155 3.12970161 1 0.948453 ? 4 A 1
+ATOM 29 C CA . PRO A 1 4 ? 0.579673529 1.74215555 2.34777522 1 0.948453 ? 4 A 1
+ATOM 30 C C . PRO A 1 4 ? -0.0839069784 0.420519471 2.69601893 1 0.948453 ? 4 A 1
+ATOM 31 O O . PRO A 1 4 ? -0.650618732 0.283325434 3.77705526 1 0.948453 ? 4 A 1
+ATOM 32 C CB . PRO A 1 4 ? 2.08338618 1.62106419 2.6931839 1 0.948453 ? 4 A 1
+ATOM 33 C CG . PRO A 1 4 ? 2.14190698 2.28651166 4.03837633 1 0.948453 ? 4 A 1
+ATOM 34 C CD . PRO A 1 4 ? 0.953131497 3.20472145 4.16965866 1 0.948453 ? 4 A 1
+ATOM 35 N N . PRO A 1 5 ? -0.0138572846 -0.54318881 1.86830723 1 0.922801 ? 5 A 1
+ATOM 36 C CA . PRO A 1 5 ? -0.820971251 -1.75267601 2.0056963 1 0.922801 ? 5 A 1
+ATOM 37 C C . PRO A 1 5 ? -0.240072057 -2.75883722 2.96084166 1 0.922801 ? 5 A 1
+ATOM 38 O O . PRO A 1 5 ? -0.713238001 -3.88662171 3.1075902 1 0.922801 ? 5 A 1
+ATOM 39 C CB . PRO A 1 5 ? -0.853884876 -2.37158465 0.611135125 1 0.922801 ? 5 A 1
+ATOM 40 C CG . PRO A 1 5 ? 0.39289239 -1.82562923 -0.0116393026 1 0.922801 ? 5 A 1
+ATOM 41 C CD . PRO A 1 5 ? 0.604138672 -0.469722569 0.556784451 1 0.922801 ? 5 A 1
+ATOM 42 N N . TRP A 1 6 ? 0.822854102 -2.51981926 3.62284636 1 0.935193 ? 6 A 1
+ATOM 43 C CA . TRP A 1 6 ? 1.35245693 -3.4080584 4.64746475 1 0.935193 ? 6 A 1
+ATOM 44 C C . TRP A 1 6 ? 1.28953147 -2.73478723 5.98151159 1 0.935193 ? 6 A 1
+ATOM 45 O O . TRP A 1 6 ? 1.39536178 -3.23447442 7.05847216 1 0.935193 ? 6 A 1
+ATOM 46 C CB . TRP A 1 6 ? 2.75196409 -3.86572576 4.37103748 1 0.935193 ? 6 A 1
+ATOM 47 C CG . TRP A 1 6 ? 3.75656176 -2.8150804 4.26048994 1 0.935193 ? 6 A 1
+ATOM 48 C CD1 . TRP A 1 6 ? 4.59453106 -2.38972712 5.21115208 1 0.935193 ? 6 A 1
+ATOM 49 C CD2 . TRP A 1 6 ? 4.04974794 -2.05452847 3.06895041 1 0.935193 ? 6 A 1
+ATOM 50 N NE1 . TRP A 1 6 ? 5.40698195 -1.42603648 4.75274611 1 0.935193 ? 6 A 1
+ATOM 51 C CE2 . TRP A 1 6 ? 5.08068657 -1.1862793 3.43614101 1 0.935193 ? 6 A 1
+ATOM 52 C CE3 . TRP A 1 6 ? 3.49690199 -1.99935317 1.78149438 1 0.935193 ? 6 A 1
+ATOM 53 C CZ2 . TRP A 1 6 ? 5.58588982 -0.275566667 2.51086211 1 0.935193 ? 6 A 1
+ATOM 54 C CZ3 . TRP A 1 6 ? 4.02284479 -1.08128858 0.841352522 1 0.935193 ? 6 A 1
+ATOM 55 C CH2 . TRP A 1 6 ? 5.03178978 -0.256960183 1.23964822 1 0.935193 ? 6 A 1
+
+loop_
+_pdbx_poly_seq_scheme.asym_id
+_pdbx_poly_seq_scheme.entity_id
+_pdbx_poly_seq_scheme.seq_id
+_pdbx_poly_seq_scheme.mon_id
+_pdbx_poly_seq_scheme.pdb_seq_num
+_pdbx_poly_seq_scheme.auth_seq_num
+_pdbx_poly_seq_scheme.pdb_mon_id
+_pdbx_poly_seq_scheme.auth_mon_id
+_pdbx_poly_seq_scheme.pdb_strand_id
+_pdbx_poly_seq_scheme.pdb_ins_code
+_pdbx_poly_seq_scheme.hetero
+A 1 1 GLY 1 1 GLY GLY A . n
+A 1 2 GLN 2 2 GLN GLN A . n
+A 1 3 TRP 3 3 TRP TRP A . n
+A 1 4 PRO 4 4 PRO PRO A . n
+A 1 5 PRO 5 5 PRO PRO A . n
+A 1 6 TRP 6 6 TRP TRP A . n
+
+loop_
+_ma_qa_metric.id
+_ma_qa_metric.name
+_ma_qa_metric.description
+_ma_qa_metric.type
+_ma_qa_metric.mode
+_ma_qa_metric.type_other_details
+_ma_qa_metric.software_group_id
+1 pLDDT 'Predicted lddt' pLDDT local . .
+
+loop_
+_ma_qa_metric_local.ordinal_id
+_ma_qa_metric_local.model_id
+_ma_qa_metric_local.label_asym_id
+_ma_qa_metric_local.label_seq_id
+_ma_qa_metric_local.label_comp_id
+_ma_qa_metric_local.metric_id
+_ma_qa_metric_local.metric_value
+1 1 A 1 GLY 1 94.161
+2 1 A 2 GLN 1 94.696
+3 1 A 3 TRP 1 96.164
+4 1 A 4 PRO 1 94.845
+5 1 A 5 PRO 1 92.280
+6 1 A 6 TRP 1 93.519
