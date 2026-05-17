@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/3Q47/3Q47_clean_protein.pdb
+      include:
+        - chain:
+            id: B
+      binding_types:
+        - chain:
+            id: B
+            binding: 31,35,38,50,62,66,69,95,96,99,100,131,132,135,136
+
+  - protein:
+      id: C
+      sequence: 7

@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/3NJG/3NJG_clean_protein.pdb
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 26,35,36,37,38,39,40,41,46,72,73,87,89,91,93,94,95,96,97,98,99,101,116
+
+  - protein:
+      id: B
+      sequence: 7

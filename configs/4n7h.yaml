@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/4N7H/4N7H_clean_protein.pdb
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 430,432,433,438,440,442,445,446,447,448,449
+
+  - protein:
+      id: B
+      sequence: 9

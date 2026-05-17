@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/3DS1/3DS1_clean_protein.pdb
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 165,166,168,169,172,173,179,182,183,186,187,190,209,210,211,214,215
+
+  - protein:
+      id: B
+      sequence: 11

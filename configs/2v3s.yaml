@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/2V3S/2V3S_clean_protein.pdb
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 448,449,450,451,452,453,454,455,459,464,467,468,473
+
+  - protein:
+      id: B
+      sequence: 5

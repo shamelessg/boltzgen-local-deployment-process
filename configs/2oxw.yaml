@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/2OXW/2OXW_clean_protein.pdb
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 179,180,181,182,215,218,219,238,239,240
+
+  - protein:
+      id: B
+      sequence: 3

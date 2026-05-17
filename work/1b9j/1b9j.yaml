@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/1B9J/1B9J_clean_protein.pdb
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 32,33,34,37,109,161,245,246,247,269,397,401,404,413,415,416,417,418,419,485,506
+
+  - protein:
+      id: B
+      sequence: 3

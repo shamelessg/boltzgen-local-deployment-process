@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/3MMG/3MMG_clean_protein.pdb
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 30,32,46,49,81,146,147,148,149,151,167,168,169,170,171,172,203,210,213,214,215,216,217
+
+  - protein:
+      id: B
+      sequence: 7

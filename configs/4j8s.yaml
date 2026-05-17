@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/4J8S/4J8S_clean_protein.pdb
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 816,835,838,839,842,843,846,884,888,891,894,895,896,899
+
+  - protein:
+      id: B
+      sequence: 12

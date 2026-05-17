@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/1OU8/1OU8_clean_protein.pdb
+      include:
+        - chain:
+            id: B
+      binding_types:
+        - chain:
+            id: B
+            binding: 28,44,50,51,52,53,57,58,59,60,72,73,74,75,76,77,79,95,96
+
+  - protein:
+      id: C
+      sequence: 11

@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/4C2C/4C2C_clean_protein.pdb
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 111,113,114,115,116,117,118,119,128,131,160,164,167,168,199
+
+  - protein:
+      id: B
+      sequence: 4

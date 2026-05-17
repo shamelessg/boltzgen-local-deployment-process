@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/3BS4/3BS4_clean_protein.pdb
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 21,52,54,56,84,118,122,125,126,129,140,142,144,147,150,162,170,176,181,182,184,186
+
+  - protein:
+      id: B
+      sequence: 3

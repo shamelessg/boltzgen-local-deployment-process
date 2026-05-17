@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/2W10/2W10_clean_protein.pdb
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 12,14,17,18,20,21,37,39,40,42,49,50,51,53,56
+
+  - protein:
+      id: B
+      sequence: 12

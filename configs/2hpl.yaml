@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/2HPL/2HPL_clean_protein.pdb
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 34,37,38,41,51,53,54,55,58,60,64
+
+  - protein:
+      id: B
+      sequence: 5

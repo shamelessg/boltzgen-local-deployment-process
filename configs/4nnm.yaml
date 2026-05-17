@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/4NNM/4NNM_clean_protein.pdb
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 29,30,31,32,33,34,35,40,44,45,59,60,91,95,98,99
+
+  - protein:
+      id: B
+      sequence: 6

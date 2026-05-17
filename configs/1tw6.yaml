@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/1TW6/1TW6_clean_protein.pdb
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 121,122,123,130,131,132,133,134,138,143,147
+
+  - protein:
+      id: B
+      sequence: 4

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# HuggingFace cache
+cache/
+.cache/
+
+# Virtual environment
+boltz_env/
+venv/
+
+# Singularity images
+*.sif
+*.tar
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Large results
+results/*.pdb
+results/*.sdf
+results/*.pt

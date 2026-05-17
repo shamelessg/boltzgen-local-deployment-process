@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/2QAB/2QAB_clean_protein.pdb
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 355,358,362,367,372,373,375,376,379,380,538,539,542,543
+
+  - protein:
+      id: B
+      sequence: 11

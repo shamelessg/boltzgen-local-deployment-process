@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/4V3I/4V3I_clean_protein.pdb
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 89,92,95,134,137,138,141,142,149
+
+  - protein:
+      id: B
+      sequence: 5

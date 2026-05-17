@@ -1,0 +1,14 @@
+entities:
+  - file:
+      path: /home/chenxq/boltzgen_me/LEADS-PEP_inputfiles/3JZO/3JZO_clean_protein.pdb
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 50,53,56,57,60,61,66,71,72,74,90,92,93,95,98,99
+
+  - protein:
+      id: B
+      sequence: 12
