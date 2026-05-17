@@ -1,3 +1,5 @@
+<img src="cover.png" alt="Boltzgen Project Cover" style="width:100%;">
+
 # Boltzgen Local Deployment Process by wrc -- an universal binder design model
 
 本人的第三段项目部分工作，基于 [Boltzgen](https://github.com/HannesStark/boltzgen) 分子生成模型，在实验室的 CentOS 7 服务器上完成从**环境部署 → 靶点配置 → 批量预测**的全流程 Pipeline，对 53 个候选多肽配体进行靶点结合预测筛选。
