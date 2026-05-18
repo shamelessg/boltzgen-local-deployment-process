@@ -2,7 +2,7 @@
 
 # Boltzgen Local Deployment Process by wrc -- an universal binder design model
 
-本人的第三段项目部分工作，基于 [Boltzgen](https://github.com/HannesStark/boltzgen) 分子生成模型，在实验室的 CentOS 7 服务器上完成从**环境部署 → 靶点配置 → 批量预测**的全流程 Pipeline，对 53 个候选多肽配体进行靶点结合预测筛选。
+本人的第三段项目部分工作，基于 [Boltzgen](https://github.com/HannesStark/boltzgen) 分子生成模型，在实验室的 CentOS 7 服务器上完成从**环境部署 → 靶点配置 → 批量预测**的 Pipeline，对 53 个蛋白质进行100个多肽配体预测生成。
 
 ## 项目概述
 
@@ -20,7 +20,7 @@ Boltzgen 是一个基于等变扩散模型的蛋白质-配体结合分子生成�
 ```
 .
 ├── README.md
-├── configs/                    # 53 个蛋白的 YAML 靶点配置
+├── working yamls/                    # 53 个蛋白的 YAML 靶点配置
 ├── scripts/
 │   ├── generate_yaml.py        # 基于空间距离的批量 YAML 生成脚本
 │   └── batch_run.sh            # 无调度器环境下的批量任务脚本
@@ -39,7 +39,7 @@ Boltzgen 是一个基于等变扩散模型的蛋白质-配体结合分子生成�
     ▼
 空间位点分析 (generate_yaml.py)
     │  欧氏距离计算蛋白-配体原子接触位点 (cutoff < 3.0Å)
-    │  自动识别主链 & 结合热点残基
+    │  自动识别主链 & 界面临近残基
     ▼
 53 个靶点 YAML 配置文件
     │
